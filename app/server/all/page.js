@@ -24,6 +24,7 @@ async function GetTodos() {
 
     <div>
         hello from git hub
+        hello fom commit
       {todos.map((todo) => (
         <h1 key={todo._id}>{todo.title}</h1>
       ))}
